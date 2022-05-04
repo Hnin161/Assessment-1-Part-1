@@ -1,0 +1,13 @@
+---
+title: "Assessment 1"
+author: "Hnin_s4679779"
+date: '2022-05-03'
+output: html_document
+---
+```{r}
+#R Markdown editing
+**R Markdown** is a file format for making dynamic documents with R.
+*An R Markdown document is written in markdown and contains chunks of embedded R code.*
+```{r}
+
+assessment1<-readcsv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-09-04/fastfood_calories.csv")

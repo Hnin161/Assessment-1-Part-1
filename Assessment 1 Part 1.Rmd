@@ -1,0 +1,26 @@
+---
+title: "Assessment 1 Part 1"
+author: "Hnin_s4679779"
+date: '2022-05-03'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+**R Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.**
+
+```{r fastfood}
+fastfood<-read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-09-04/fastfood_calories.csv")
+```
+
+```{r filtering the data}
+#Display the first 10 rows of the data set
+knitr::kable(head(fastfood,10),"pipe")
+```
+
+```{r filtering the data2}
+head(fastfood[,1:5],10)
