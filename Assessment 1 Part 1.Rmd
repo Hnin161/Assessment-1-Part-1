@@ -23,4 +23,5 @@ knitr::kable(head(fastfood,10),"pipe")
 ```
 
 ```{r filtering the data2}
-head(fastfood[,1:5],10)
+knitr::kable(head(fastfood[,1:5],10))
+```
